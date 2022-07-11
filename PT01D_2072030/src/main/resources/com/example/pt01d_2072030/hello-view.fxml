@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#nextAntrian" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #32a852;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pt01d_2072030.HelloController">
+   <top>
+      <VBox alignment="TOP_CENTER" prefHeight="338.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="ANTRIAN" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="40.0" />
+               </font>
+            </Label>
+            <Label fx:id="nomorAntri" text="1" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="150.0" />
+               </font>
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+            </Label>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+         <padding>
+            <Insets top="50.0" />
+         </padding>
+      </VBox>
+   </top>
+   <left>
+      <VBox alignment="CENTER" prefHeight="263.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="nomorCounter" text="Silahkan ke counter 1" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="40.0" />
+               </font>
+            </Label>
+            <Label textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="46.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </left>
+</BorderPane>

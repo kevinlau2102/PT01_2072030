@@ -1,4 +1,4 @@
-package com.example.pt01c_2072030;
+package com.example.pt01b_2072030;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -11,8 +11,8 @@ public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 600, 400);
-        stage.setTitle("Hello!");
+        Scene scene = new Scene(fxmlLoader.load(), 530, 330);
+        stage.setTitle("Calculator");
         stage.setScene(scene);
         stage.show();
     }
